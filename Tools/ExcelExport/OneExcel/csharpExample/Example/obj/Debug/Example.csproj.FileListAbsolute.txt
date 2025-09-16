@@ -1,0 +1,7 @@
+E:\Project_Go\src\tabtoyFromGit\v2\example\csharp\Example\bin\Debug\csharptest.exe.config
+E:\Project_Go\src\tabtoyFromGit\v2\example\csharp\Example\bin\Debug\csharptest.exe
+E:\Project_Go\src\tabtoyFromGit\v2\example\csharp\Example\bin\Debug\csharptest.pdb
+E:\Project_Go\src\tabtoyFromGit\v2\example\csharp\Example\obj\Debug\Example.csproj.AssemblyReference.cache
+E:\Project_Go\src\tabtoyFromGit\v2\example\csharp\Example\obj\Debug\Example.csproj.CoreCompileInputs.cache
+E:\Project_Go\src\tabtoyFromGit\v2\example\csharp\Example\obj\Debug\csharptest.exe
+E:\Project_Go\src\tabtoyFromGit\v2\example\csharp\Example\obj\Debug\csharptest.pdb

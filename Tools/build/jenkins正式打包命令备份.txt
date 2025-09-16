@@ -1,0 +1,86 @@
+#!/bin/bash -l
+echo $WORKSPACE
+branch=branches/$branch
+echo $branch
+echo "版本号:"$version
+
+echo "SVN 更新配置目录"
+svn update /Users/cdc01/Documents/DataTool
+
+echo "SVN 操作"
+cd ${WORKSPACE}
+echo "切换到分支:switch svn://10.23.0.3/cdc03/client/"$branch
+svn switch svn://10.23.0.3/client/$branch
+echo "清理"
+svn cleanup --remove-unversioned
+echo "还原"
+svn revert -R .
+echo "更新"
+svn update --accept theirs-full
+
+echo "SVN 更新备份目录"
+svn update /Users/cdc01/Documents/Backups
+echo "copy HotDll to project"
+if [ -d /Users/cdc01/Documents/Backups/${branch}/HotDll ]; then
+    echo "Directory exists:HotDll"
+    cp -rf /Users/cdc01/Documents/Backups/${branch}/HotDll ${WORKSPACE}/UnityProject/Assets/Resource
+else
+    echo "Directory does not exist：HotDll"
+fi
+
+echo "copy AddressableAssetsData/Android to project"
+if [ -d /Users/cdc01/Documents/Backups/${branch}/AddressableAssetsData/Android ]; then
+    echo "Directory exists:AddressableAssetsData/Android"
+    cp -rf /Users/cdc01/Documents/Backups/${branch}/AddressableAssetsData/Android ${WORKSPACE}/UnityProject/Assets/AddressableAssetsData
+else
+    echo "Directory does not exist：AddressableAssetsData/Android"
+fi
+
+SVN_REVISION=$(svn info --show-item revision)
+echo "Revision:"$SVN_REVISION
+export ROA_G_Version=$version
+export ROA_G_Branch=$branch
+export ROA_G_BundleVersionCode=$BundleVersionCode
+export ROA_G_TplFileOption=$TplFileOption
+export ROA_G_Platform=android
+export ROA_G_ChannelName=$channelName
+export ROA_G_SVNRevision=$SVN_REVISION
+export ROA_G_Debug=0
+export ROA_G_AAB=true
+export ROA_G_HOTDll=$GenerateDll
+
+echo 开始执行打包脚本
+/bin/bash $WORKSPACE/Tools/build/Start.sh
+
+if [[ $? != 0 ]]; then
+  exit
+fi
+
+echo "delete HotDll  form backups"
+HOTDLL_DIR="/Users/cdc01/Documents/Backups/${branch}"
+rm -rf $HOTDLL_DIR
+echo "copy HotDll to backups"
+mkdir -p $HOTDLL_DIR
+cp -rf ${WORKSPACE}/UnityProject/Assets/Resource/HotDll $HOTDLL_DIR
+
+echo "delete AddressableAssetsData/Android form backups"
+AAS_DIR="/Users/cdc01/Documents/Backups/${branch}/AddressableAssetsData"
+echo "copy AddressableAssetsData/Android to backups"
+if [ -d $AAS_DIR ]; then
+	mkdir -p $AAS_DIR
+fi
+cp -rf ${WORKSPACE}/UnityProject/Assets/AddressableAssetsData/Android $AAS_DIR
+
+echo "commit Backups"
+svn add --force /Users/cdc01/Documents/Backups
+svn commit /Users/cdc01/Documents/Backups -m "commit Backups"
+
+#echo "SVN 上传Resource目录"
+#svn add --force ${WORKSPACE}/UnityProject/Assets/Resource/AssetSet
+#svn commit ${WORKSPACE}/UnityProject/Assets/Resource/AssetSet -m "[打包机]打包后自动上传Resourcee/AssetSet目录"
+#svn add --force ${WORKSPACE}/UnityProject/Assets/Resource/HotDll
+#svn commit ${WORKSPACE}/UnityProject/Assets/Resource/HotDll -m "[打包机]打包后自动上传Resourcee/HotDll目录"
+
+#echo "SVN 上传AddressableAssetsData目录"
+#svn add --force ${WORKSPACE}/UnityProject/Assets/AddressableAssetsData
+#svn commit ${WORKSPACE}/UnityProject/Assets/AddressableAssetsData -m "[打包机]打包后自动上传AddressableAssetsData目录"

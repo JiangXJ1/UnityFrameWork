@@ -1,0 +1,172 @@
+{"android":{
+            "serverInfo":{
+                "serverList":["47.116.213.222:8000"],
+                "reviewServerList":["44.227.228.69:8000"],
+                "hotfixUrl":"https://dtjytf74r9axt.cloudfront.net/orig-roa"
+            },
+            "version":"1.1.0",
+            "socialUrl":"https://discord.gg/m8eJ9aJ84b",
+            "storeUrl":"https://www.google.com",
+            "isMaintenance":1,
+            "showNotice":0,
+            "hotUpdateVersion":"1.1.20",
+            "timeStart":1703817339,
+            "timeEnd":1703817340,
+            "whiteUids":["1336475"],
+            "reviewVersion":"",
+            "lanCN":{
+                "forceUpdate":"发现新版本，请前往商店下载",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server shutdown notice",
+                "maintenanceContent":"The current phase of game testing has concluded, and the game servers have been shut down. Please stay tuned to our Discord community for more game news."
+            },
+            "lanTW":{
+                "forceUpdate":"發現新版本，請前往商店下載",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server shutdown notice",
+                "maintenanceContent":"The current phase of game testing has concluded, and the game servers have been shut down. Please stay tuned to our Discord community for more game news."
+            },
+            "lanEN":{
+                "forceUpdate":"Discovered new version. Please download it from the store",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server shutdown notice",
+                "maintenanceContent":"The current phase of game testing has concluded, and the game servers have been shut down. Please stay tuned to our Discord community for more game news."
+            },
+            "lanJP":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanKR":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            }
+        },
+  "ios":{
+            "serverInfo":{
+                "serverList":["44.227.228.69:8000"],
+                "reviewServerList":["44.227.228.69:8000"],
+                "hotfixUrl":"https://dtjytf74r9axt.cloudfront.net/orig-roa"
+            },
+            "version":"0.0.6",
+            "socialUrl":"https://discord.gg/m8eJ9aJ84b",
+            "storeUrl":"https://www.google.com",
+            "isMaintenance":1,
+            "showNotice":0,
+            "hotUpdateVersion":"0.0.6",
+            "timeStart":1703817339,
+            "timeEnd":1717207200,
+            "whiteUids":[],
+            "reviewVersion":"",
+            "lanCN":{
+                "forceUpdate":"发现新版本，请前往商店下载",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanTW":{
+                "forceUpdate":"發現新版本，請前往商店下載",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanEN":{
+                "forceUpdate":"Discovered new version. Please download it from the store",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":"Dear Chiefs,\n\nThe game has just completed server stability testing and will wipe out data at 11/6 02:00 (UTC).\n\nThe official Test will be available starting 11/6 03:00 (UTC), so you can also opt to wait a little longer to test the game to get a better gaming experience."
+            },
+            "lanJP":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanKR":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            }
+        },
+ "test":{
+            "serverInfo":{
+                "serverList":["44.227.228.69:8000"],
+                "reviewServerList":["44.227.228.69:8000"],
+                "hotfixUrl":"https://dtjytf74r9axt.cloudfront.net/orig-roa"
+            },
+            "version":"1.1.0",
+            "socialUrl":"https://discord.gg/m8eJ9aJ84b",
+            "storeUrl":"https://www.google.com",
+            "isMaintenance":1,
+            "showNotice":0,
+            "hotUpdateVersion":"0.0.6",
+            "timeStart":1703817339,
+            "timeEnd":1717207200,
+            "whiteUids":[],
+            "reviewVersion":"",
+             "lanCN":{
+                "forceUpdate":"发现新版本，请前往商店下载",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server shutdown notice",
+                "maintenanceContent":"The current phase of game testing has concluded, and the game servers have been shut down. Please stay tuned to our Discord community for more game news."
+            },
+            "lanTW":{
+                "forceUpdate":"發現新版本，請前往商店下載",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server shutdown notice",
+                "maintenanceContent":"The current phase of game testing has concluded, and the game servers have been shut down. Please stay tuned to our Discord community for more game news."
+            },
+            "lanEN":{
+                "forceUpdate":"Discovered new version. Please download it from the store",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server shutdown notice",
+                "maintenanceContent":"The current phase of game testing has concluded, and the game servers have been shut down. Please stay tuned to our Discord community for more game news."
+            },
+            "lanJP":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanKR":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            }
+        }
+}

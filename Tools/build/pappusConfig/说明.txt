@@ -1,0 +1,181 @@
+
+资源下载路径：https://dtjytf74r9axt.cloudfront.net/orig-roa/
+
+
+
+notice.json 配置说明：
+
+路径版本号：对应打包时的bundle版本号  每个整包对应一个版本号
+
+isMaintenance   	开启强制维护：1   关闭强制维护：0
+timeStart   		强制维护开始时间（秒）
+timeEnd   			强制维护结束时间（秒）
+showNotice   		显示公告：1       不显示公告：0
+
+version  			版本号，提高版本号客户端才检测更新
+
+
+lanCN  简体中文
+lanTW  繁体中文
+lanEN  英文
+lanJP  日文
+lanKR  韩文
+
+noticePageName  非强制维护公告页签，支持多个 （例："noticePageName":["页签名1","页签名2"]）
+noticeTitle		非强制维护公告标题，支持多个 （例："noticeTitle":["防沉迷","新年活动通知"]）
+noticeContent   非强制维护公告内容，支持多个 （例："noticeContent":["lanCNcontent1","lanCNcontent2"],）
+
+
+
+maintenanceTitle     	强制维护公告标题   	（例："maintenanceTitle":"lanENmaintenanceTitle"）
+maintenanceContent   	强制维护公告内容   	（例："maintenanceContent":"lanENmaintenanceContent"）
+storeUrl 				强更地址			（例："storeUrl":"www.baidu.com"）
+forceUpdate 			强制更新描述		（例："forceUpdate":"lanENmaintenanceTitle"）
+
+配置完成后执行：上传匿名公告信息.bat   并上传git
+
+*************************************示例配置************************************************
+
+{"android":{
+			"version":"0.0.0",
+			"isMaintenance":1,
+			"showNotice":0,
+			"timeStart":20,
+			"timeEnd":50,
+			"lanCN":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanCNmaintenanceTitle",
+				"maintenanceContent":"lanCNmaintenanceContent"
+			},
+			"lanTW":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanTWmaintenanceTitle",
+				"maintenanceContent":"lanTWmaintenanceContent"
+			},
+			"lanEN":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanENmaintenanceTitle",
+				"maintenanceContent":"lanENmaintenanceContent"
+			},
+			"lanJP":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanJPmaintenanceTitle",
+				"maintenanceContent":"lanJPmaintenanceContent"
+			},
+			"lanKR":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanKRmaintenanceTitle",
+				"maintenanceContent":"lanKRmaintenanceContent"
+			}
+		},
+  "ios":{
+			"version":"0.0.0",
+			"isMaintenance":0,
+			"showNotice":0,
+			"timeStart":20,
+			"timeEnd":50,
+			"lanCN":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanCNmaintenanceTitle",
+				"maintenanceContent":"lanCNmaintenanceContent"
+			},
+			"lanTW":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanTWmaintenanceTitle",
+				"maintenanceContent":"lanTWmaintenanceContent"
+			},
+			"lanEN":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanENmaintenanceTitle",
+				"maintenanceContent":"lanENmaintenanceContent"
+			},
+			"lanJP":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanJPmaintenanceTitle",
+				"maintenanceContent":"lanJPmaintenanceContent"
+			},
+			"lanKR":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanKRmaintenanceTitle",
+				"maintenanceContent":"lanKRmaintenanceContent"
+			}
+		},
+ "test":{
+			"version":"0.0.20",
+			"isMaintenance":0,
+			"showNotice":1,
+			"timeStart":1640663124,
+			"timeEnd":1640673124,
+			"lanCN":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanCNmaintenanceTitle",
+				"maintenanceContent":"lanCNmaintenanceContent"
+			},
+			"lanTW":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanTWmaintenanceTitle",
+				"maintenanceContent":"lanTWmaintenanceContent"
+			},
+			"lanEN":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanENmaintenanceTitle",
+				"maintenanceContent":"lanENmaintenanceContent"
+			},
+			"lanJP":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanJPmaintenanceTitle",
+				"maintenanceContent":"lanJPmaintenanceContent"
+			},
+			"lanKR":{
+				"storeUrl":"www.baidu.com",
+				"noticePageName":["页签名1","页签名2"],
+				"noticeTitle":["标题1","标题2"],
+				"noticeContent":["公告内容1","公告内容2"],
+				"maintenanceTitle":"lanKRmaintenanceTitle",
+				"maintenanceContent":"lanKRmaintenanceContent"
+			}
+		}
+}
+*************************************示例配置************************************************

@@ -1,0 +1,13 @@
+密码：cdc012023
+alias:l1  密码cdc012023
+
+sha1:0E:89:DD:F8:92:3C:DC:94:08:37:C9:D6:BF:95:17:AE:CA:48:8C:70
+
+
+
+[
+	获取sha1:
+	cd .android
+	keytool -list -v -keystore D:\IGG\develop\client_project\build\keystore\ts.keystore
+]
+

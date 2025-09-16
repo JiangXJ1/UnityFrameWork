@@ -1,0 +1,4 @@
+1：自定义热更资源下载地址   HotFixUrl.txt
+2：自定义热更版本号			RemoteVersion.txt
+3：自定义基础版本号			version.json
+4: 自定义强更版本号			ForceUpdateVersion.txt

@@ -1,0 +1,5 @@
+KEY,ID,StartTime,EndTime,SpecialReward,
+uint,uint,uint[],uint[],uint,
+101,1,2*0,6*15,1,
+201,2,2*0,5*2592000,1,
+301,3,2*0,5*2592000,1,

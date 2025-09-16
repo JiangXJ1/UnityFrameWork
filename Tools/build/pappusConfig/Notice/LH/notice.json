@@ -1,0 +1,191 @@
+{"android":{
+            "serverInfo":{
+                "serverList":["44.227.228.69:8000"],
+                "reviewServerList":["52.11.228.167:8000"],
+                "hotfixUrl":"https://dtjytf74r9axt.cloudfront.net/orig-roa"
+            },
+            "version":"0.0.23",
+            "socialUrl":"https://discord.gg/gzwaB6gBuX",
+            "storeUrl":"https://play.google.com/store/apps/details?id=com.lasthome.android",
+            "isServerClosed":1,
+            "isMaintenance":0,
+            "showNotice":0,
+            "hotUpdateVersion":"0.0.0",
+            "timeStart":1721095200,
+            "timeEnd":1721100600,
+            "whiteUids":[],
+            "reviewVersion":"",
+            "lanCN":{
+                "closeServerTitle":"Server shutdown notice",
+                "closeServerContent":"Dear @Survivors,\n\nLast Home's playtest is coming to an end, and we will briefly bid farewell to this unforgettable journey at 05:00  (UTC) 08/30. All data will be deleted. Thank you for your enthusiastic participation during this period of time!\n\nYour valuable feedback will help us improve and refine the game experience, and we look forward to seeing you again in Last Home's subsequent tests and updates!\n\nStay tuned to our Discord channel for the latest news and game updates.\n\nThank you again for your support and participation!\n\nThe Last Home Game Team",
+                "forceUpdate":"发现新版本，请前往商店下载",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server shutdown notice",
+                "maintenanceContent":"Dear Survivors,\n\nWe have just completed the server stability testing for the game. To ensure your gaming experience, the game will undergo server optimization and data wipe.\n\nThe official playtest will begin on July 15th at 03:30 (UTC). During the server downtime, feel free to click on the button to interact with us in the Discord community.\n\nThe Last Home Game Team"
+            },
+            "lanTW":{
+                "closeServerTitle":"Server shutdown notice",
+                "closeServerContent":"Dear @Survivors,\n\nLast Home's playtest is coming to an end, and we will briefly bid farewell to this unforgettable journey at 05:00  (UTC) 08/30. All data will be deleted. Thank you for your enthusiastic participation during this period of time!\n\nYour valuable feedback will help us improve and refine the game experience, and we look forward to seeing you again in Last Home's subsequent tests and updates!\n\nStay tuned to our Discord channel for the latest news and game updates.\n\nThank you again for your support and participation!\n\nThe Last Home Game Team",
+                "forceUpdate":"發現新版本，請前往商店下載",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"維護",
+                "maintenanceContent":"尊敬的首領：\n為了保證您的遊戲體驗，我們正在進行停服優化，結束後我們將為您送上停服補償。\n給您帶來的不變我們深表歉意，感謝您的理解和支持！\n在停服等待過程中，點擊右下的按鈕，來社區和我們互動吧~\n"
+            },
+            "lanEN":{
+                "closeServerTitle":"Server shutdown notice",
+                "closeServerContent":"Dear @Survivors,\n\nLast Home's playtest is coming to an end, and we will briefly bid farewell to this unforgettable journey at 05:00  (UTC) 08/30. All data will be deleted. Thank you for your enthusiastic participation during this period of time!\n\nYour valuable feedback will help us improve and refine the game experience, and we look forward to seeing you again in Last Home's subsequent tests and updates!\n\nStay tuned to our Discord channel for the latest news and game updates.\n\nThank you again for your support and participation!\n\nThe Last Home Game Team",
+                "forceUpdate":"Discovered new version. Please download it from the store",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server shutdown notice",
+                "maintenanceContent":"Dear Survivors,\n\nWe have just completed the server stability testing for the game. To ensure your gaming experience, the game will undergo server optimization and data wipe.\n\nThe official playtest will begin on July 15th at 03:30 (UTC). During the server downtime, feel free to click on the button to interact with us in the Discord community.\n\nThe Last Home Game Team"
+            },
+            "lanJP":{
+                "closeServerTitle":"Server shutdown notice",
+                "closeServerContent":"Dear @Survivors,\n\nLast Home's playtest is coming to an end, and we will briefly bid farewell to this unforgettable journey at 05:00  (UTC) 08/30. All data will be deleted. Thank you for your enthusiastic participation during this period of time!\n\nYour valuable feedback will help us improve and refine the game experience, and we look forward to seeing you again in Last Home's subsequent tests and updates!\n\nStay tuned to our Discord channel for the latest news and game updates.\n\nThank you again for your support and participation!\n\nThe Last Home Game Team",
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanKR":{
+                "closeServerTitle":"Server shutdown notice",
+                "closeServerContent":"Dear @Survivors,\n\nLast Home's playtest is coming to an end, and we will briefly bid farewell to this unforgettable journey at 05:00  (UTC) 08/30. All data will be deleted. Thank you for your enthusiastic participation during this period of time!\n\nYour valuable feedback will help us improve and refine the game experience, and we look forward to seeing you again in Last Home's subsequent tests and updates!\n\nStay tuned to our Discord channel for the latest news and game updates.\n\nThank you again for your support and participation!\n\nThe Last Home Game Team",
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            }
+        },
+  "ios":{
+            "serverInfo":{
+                "serverList":["44.227.228.69:8000"],
+                "reviewServerList":["44.227.228.69:8000"],
+                "hotfixUrl":"https://dtjytf74r9axt.cloudfront.net/orig-roa"
+            },
+            "version":"0.0.6",
+            "socialUrl":"https://discord.com/invite/Dt7C26GjwJ",
+            "storeUrl":"https://www.google.com",
+            "isServerClosed":0,
+            "isMaintenance":0,
+            "showNotice":0,
+            "hotUpdateVersion":"0.0.6",
+            "timeStart":1264148027,
+            "timeEnd":1737533627,
+            "whiteUids":[],
+            "reviewVersion":"",
+            "lanCN":{
+                "forceUpdate":"发现新版本，请前往商店下载",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanTW":{
+                "forceUpdate":"發現新版本，請前往商店下載",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanEN":{
+                "forceUpdate":"Discovered new version. Please download it from the store",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanJP":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanKR":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            }
+        },
+ "test":{
+            "serverInfo":{
+                "serverList":["44.227.228.69:8000"],
+                "reviewServerList":["10.23.50.34:8000"],
+                "hotfixUrl":"https://dtjytf74r9axt.cloudfront.net/orig-roa"
+            },
+            "version":"0.0.0",
+            "socialUrl":"https://discord.com/invite/Dt7C26GjwJ",
+            "storeUrl":"https://www.google.com",
+            "isServerClosed":0,
+            "isMaintenance":1,
+            "showNotice":1,
+            "hotUpdateVersion":"0.0.1",
+            "timeStart":1721095200,
+            "timeEnd":1721098800,
+            "whiteUids":["1157454"],
+            "reviewVersion":"",
+             "lanCN":{
+                "closeServerTitle":"关服",
+                "closeServerContent":"关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容",
+                "forceUpdate":"发现新版本，请前往商店下载",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"维护",
+                "maintenanceContent":"尊敬的首领：\n为了保证您的游戏体验，我们正在进行停服优化，结束后我们将为您送上停服补偿。\n给您带来的不变我们深表歉意，感谢您的理解和支持！\n在停服等待过程中，点击右下的按钮，来社区和我们互动吧~"
+            },
+            "lanTW":{
+                "closeServerTitle":"关服",
+                "closeServerContent":"关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容",
+                "forceUpdate":"發現新版本，請前往商店下載",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"維護",
+                "maintenanceContent":"尊敬的首領：\n為了保證您的遊戲體驗，我們正在進行停服優化，結束後我們將為您送上停服補償。\n給您帶來的不變我們深表歉意，感謝您的理解和支持！\n在停服等待過程中，點擊右下的按鈕，來社區和我們互動吧~\n"
+            },
+            "lanEN":{
+                "closeServerTitle":"关服",
+                "closeServerContent":"关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容",
+                "forceUpdate":"Discovered new version. Please download it from the store",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server shutdown notice",
+                "maintenanceContent":"Dear Survivors,\n\nWe have just completed the server stability testing for the game. To ensure your gaming experience, the game will undergo server optimization and data wipe.\n\nThe official playtest will begin on July 15th at 03:00 (UTC). During the server downtime, feel free to click on the button to interact with us in the Discord community.\n\nThe Last Home Game Team"
+            },
+            "lanJP":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanKR":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            }
+        }
+}

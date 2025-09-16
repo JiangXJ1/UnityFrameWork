@@ -1,0 +1,74 @@
+#!/bin/bash -l
+echo $WORKSPACE
+echo "版本号:"$version
+echo "Revision:"$SVN_REVISION
+
+echo "SVN 更新配置目录"
+svn update /Users/cdc01/Documents/DataTool
+
+echo "SVN 操作"
+cd ${WORKSPACE}
+echo "切换到分支:switch svn://10.23.0.3/client/"$branch
+svn switch svn://10.23.0.3/client/$branch
+echo "清理"
+svn cleanup --remove-unversioned
+echo "还原"
+svn revert --depth infinity client_project
+echo "更新"
+svn update
+
+echo 开始执行打包脚本
+/bin/bash $WORKSPACE/build/Start.sh $version $branch $BundleVersionCode $TplFileOption android $channelName
+
+echo "SVN 上传Resource目录"
+svn add --force ${WORKSPACE}/UnityProject/Assets/Resource
+svn commit ${WORKSPACE}/UnityProject/Assets/Resource -m "[打包机]打包后自动上传Resource目录"
+
+echo "SVN 上传AddressableAssetsData目录"
+svn add --force ${WORKSPACE}/UnityProject/Assets/AddressableAssetsData
+svn commit ${WORKSPACE}/UnityProject/Assets/AddressableAssetsData -m "[打包机]打包后自动上传AddressableAssetsData目录"
+
+
+
+
+
+
+
+#!/bin/bash -l
+echo $WORKSPACE
+echo "版本号:"$version
+
+echo "SVN 更新配置目录"
+svn update /Users/cdc01/Documents/DataTool
+
+echo "SVN 操作"
+cd ${WORKSPACE}
+echo "切换到分支:switch svn://10.23.0.3/client/"$branch
+svn switch svn://10.23.0.3/client/$branch
+echo "清理"
+svn cleanup --remove-unversioned
+echo "还原"
+svn revert --depth infinity client_project
+echo "更新"
+svn update
+
+SVN_REVISION=$(svn info --show-item revision)
+echo "Revision:"$SVN_REVISION
+export ROA_G_Version=$version
+export ROA_G_Branch=$branch
+export ROA_G_BundleVersionCode=$BundleVersionCode
+export ROA_G_TplFileOption=$TplFileOption
+export ROA_G_Platform=android
+export ROA_G_ChannelName=$channelName
+export ROA_G_SVNRevision=$SVN_REVISION
+
+echo 开始执行打包脚本
+/bin/bash $WORKSPACE/build/Start.sh $version $branch $BundleVersionCode $TplFileOption android $channelName $SVN_REVISION
+
+echo "SVN 上传Resource目录"
+svn add --force ${WORKSPACE}/UnityProject/Assets/Resource
+svn commit ${WORKSPACE}/UnityProject/Assets/Resource -m "[打包机]打包后自动上传Resource目录"
+
+echo "SVN 上传AddressableAssetsData目录"
+svn add --force ${WORKSPACE}/UnityProject/Assets/AddressableAssetsData
+svn commit ${WORKSPACE}/UnityProject/Assets/AddressableAssetsData -m "[打包机]打包后自动上传AddressableAssetsData目录"

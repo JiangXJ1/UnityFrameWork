@@ -1,0 +1,211 @@
+{"android":{
+            "serverInfo":{
+                "serverList":["http://52.11.228.167:8000"],
+                "reviewServerList":["http://52.11.228.167:8000"],
+                "hotfixUrl":"https://dtjytf74r9axt.cloudfront.net/orig-roa",
+                "httpServerURL":"http://52.11.228.167:8000"
+            },
+            "reviewServerInfo":{
+                "serverList":["http://52.11.228.167:8000"],
+                "reviewServerList":["http://52.11.228.167:8000"],
+                "hotfixUrl":"https://dtjytf74r9axt.cloudfront.net/orig-roa",
+                "httpServerURL":"http://52.11.228.167:8000"
+            },
+            "version":"0.0.0",
+            "socialUrl":"https://discord.gg/gzwaB6gBuX",
+            "storeUrl":"https://play.google.com/store/apps/details?id=com.lasthome.android&hl=zh&gl=us",
+            "isServerClosed":0,
+            "isMaintenance":0,
+            "showNotice":0,
+            "hotUpdateVersion":"0.0.0",
+            "timeStart":1745570630,
+            "timeEnd":1745816400,
+            "whiteUids":[""],
+            "reviewVersion":"0.0.0",
+            "lanCN":{
+                "closeServerTitle":"Server Shutdown Notice",
+                "closeServerContent":"The current phase of game testing has concluded, and the game servers have been shut down. Please stay tuned to our Discord community for more game news.",
+                "forceUpdate":"发现新版本，请前往商店下载",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server Open Announcement",
+                "maintenanceContent":"Dear @Survivors,\n\nThe official Test will be available starting 04/28 05:00 (UTC), so you can also opt to wait a little longer to test the game to get a better gaming experience. Tap the bottom right button to join the discussion with our community while waiting.\n\nThe Last Home Game Team"
+            },
+            "lanTW":{
+                "closeServerTitle":"Server Shutdown Notice",
+                "closeServerContent":"The current phase of game testing has concluded, and the game servers have been shut down. Please stay tuned to our Discord community for more game news.",
+                "forceUpdate":"發現新版本，請前往商店下載",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server Open Announcement",
+                "maintenanceContent":"Dear @Survivors,\n\nThe official Test will be available starting 04/28 05:00 (UTC), so you can also opt to wait a little longer to test the game to get a better gaming experience. Tap the bottom right button to join the discussion with our community while waiting.\n\nThe Last Home Game Team"
+            },
+            "lanEN":{
+                "closeServerTitle":"Server Shutdown Notice",
+                "closeServerContent":"The current phase of game testing has concluded, and the game servers have been shut down. Please stay tuned to our Discord community for more game news.",
+                "forceUpdate":"Discovered new version. Please download it from the store",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server Open Announcement",
+                "maintenanceContent":"Dear @Survivors,\n\nThe official Test will be available starting 04/28 05:00 (UTC), so you can also opt to wait a little longer to test the game to get a better gaming experience. Tap the bottom right button to join the discussion with our community while waiting.\n\nThe Last Home Game Team"
+            },
+            "lanJP":{
+                "closeServerTitle":"Server Shutdown Notice",
+                "closeServerContent":"The current phase of game testing has concluded, and the game servers have been shut down. Please stay tuned to our Discord community for more game news.",
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server Open Announcement",
+                "maintenanceContent":"Dear @Survivors,\n\nThe official Test will be available starting 04/28 05:00 (UTC), so you can also opt to wait a little longer to test the game to get a better gaming experience. Tap the bottom right button to join the discussion with our community while waiting.\n\nThe Last Home Game Team"
+            },
+            "lanKR":{
+                "closeServerTitle":"Server Shutdown Notice",
+                "closeServerContent":"The current phase of game testing has concluded, and the game servers have been shut down. Please stay tuned to our Discord community for more game news.",
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server Open Announcement",
+                "maintenanceContent":"Dear @Survivors,\n\nThe official Test will be available starting 04/28 05:00 (UTC), so you can also opt to wait a little longer to test the game to get a better gaming experience. Tap the bottom right button to join the discussion with our community while waiting.\n\nThe Last Home Game Team"
+            }
+        },
+  "ios":{
+            "serverInfo":{
+                "serverList":["10.23.1.12:8000"],
+                "reviewServerList":["52.11.228.167:8000"],
+                "hotfixUrl":"https://dtjytf74r9axt.cloudfront.net/orig-roa"
+            },
+            "reviewServerInfo":{
+                "serverList":["http://52.11.228.167:8000"],
+                "reviewServerList":["http://52.11.228.167:8000"],
+                "hotfixUrl":"https://dtjytf74r9axt.cloudfront.net/orig-roa",
+                "httpServerURL":"http://52.11.228.167:8000"
+            },
+            "version":"0.0.6",
+            "socialUrl":"https://discord.com/invite/Dt7C26GjwJ",
+            "storeUrl":"https://www.google.com",
+            "isServerClosed":0,
+            "isMaintenance":0,
+            "showNotice":0,
+            "hotUpdateVersion":"0.0.6",
+            "timeStart":1264148027,
+            "timeEnd":1737533627,
+            "whiteUids":[],
+            "reviewVersion":"",
+            "lanCN":{
+                "forceUpdate":"发现新版本，请前往商店下载",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanTW":{
+                "forceUpdate":"發現新版本，請前往商店下載",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanEN":{
+                "forceUpdate":"Discovered new version. Please download it from the store",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanJP":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanKR":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            }
+        },
+ "test":{
+            "serverInfo":{
+                "serverList":["http://10.23.50.34:8000"],
+                "reviewServerList":["http://10.23.50.34:8000"],
+                "hotfixUrl":"https://dtjytf74r9axt.cloudfront.net/orig-roa",
+                "httpServerURL":"http://10.23.50.34:8000"
+            },
+            "reviewServerInfo":{
+                "serverList":["http://10.23.50.34:8000"],
+                "reviewServerList":["http://10.23.50.34:8000"],
+                "hotfixUrl":"https://dtjytf74r9axt.cloudfront.net/orig-roa",
+                "httpServerURL":"http://10.23.50.34:8000"
+            },
+            "version":"0.0.0",
+            "socialUrl":"https://discord.com/invite/Dt7C26GjwJ",
+            "storeUrl":"https://www.google.com",
+            "isServerClosed":0,
+            "isMaintenance":0,
+            "showNotice":0,
+            "hotUpdateVersion":"0.0.1",
+            "timeStart":1751352050,
+            "timeEnd":1751352331,
+            "whiteUids":["1157454"],
+            "reviewVersion":"0.0.61",
+             "lanCN":{
+                "closeServerTitle":"关服",
+                "closeServerContent":"关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容",
+                "forceUpdate":"发现新版本，请前往商店下载",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server shutdown notice",
+                "maintenanceContent":"Dear Survivors,\n\nThe Shelter is presently undergoing essential upgrade maintenance, and we shall provide you with a supply of resources upon its completion.\n\nShould you require a secure haven to rest temporarily, we warmly invite you to join our official Discord. There, you can engage in meaningful exchanges of survival experiences with fellow commanders during these challenging times.\n\nThe Last Home Game Team"
+            },
+            "lanTW":{
+                "closeServerTitle":"关服",
+                "closeServerContent":"关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容",
+                "forceUpdate":"發現新版本，請前往商店下載",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"維護",
+                "maintenanceContent":"尊敬的首領：\n為了保證您的遊戲體驗，我們正在進行停服優化，結束後我們將為您送上停服補償。\n給您帶來的不變我們深表歉意，感謝您的理解和支持！\n在停服等待過程中，點擊右下的按鈕，來社區和我們互動吧~\n"
+            },
+            "lanEN":{
+                "closeServerTitle":"关服",
+                "closeServerContent":"关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容关服公告内容",
+                "forceUpdate":"Discovered new version. Please download it from the store",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"Server shutdown notice",
+                "maintenanceContent":"Dear Survivors,\n\nThe Shelter is presently undergoing essential upgrade maintenance, and we shall provide you with a supply of resources upon its completion.\n\nShould you require a secure haven to rest temporarily, we warmly invite you to join our official Discord. There, you can engage in meaningful exchanges of survival experiences with fellow commanders during these challenging times.\n\nThe Last Home Game Team"
+            },
+            "lanJP":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            },
+            "lanKR":{
+                "forceUpdate":"",
+                "noticePageName":[""],
+                "noticeTitle":["",""],
+                "noticeContent":[""],
+                "maintenanceTitle":"",
+                "maintenanceContent":""
+            }
+        }
+}

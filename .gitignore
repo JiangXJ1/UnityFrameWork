@@ -1,0 +1,12 @@
+UnityProject/*.csproj
+UnityProject/Temp
+UnityProject/Library
+UnityProject/Packages/packages-lock.json
+UnityProject/Diting
+UnityProject/.vsconfig
+UnityProject/UnityProject.sln
+UnityProject/Assets/~Temp
+UnityProject/Assets/~Temp.meta
+UnityProject/.vs
+UnityProject/UserSettings
+UnityProject/Logs
